@@ -34,21 +34,4 @@ The current functional planning of the project is as follows:
 Noooo! You don't expect me to write all these features quickly! These things are still pretty early!
 ...
 
-# Still in production
-This item is still in production, please do not use and spread
-
-# Project Objectives
-Although still in production, the goal of the project is to give the majority of cyberfishers the experience of fishing with others on the Internet (kong) fish (jun), inspired by the sudden idea of sleep.
-The current functional planning of the project is as follows:
-> 1. Allow the player to spend the coin cp of this script to add new fish for everyone to fish, and modify the function of the uploaded fish, which can appear in the view of the cybertrolls after the die master review.
-> 2. The physical system of the fishers, including the physical consumption of fishing, limiting physical recovery every day, etc.
-> 3. The troller's property system, including fish property and coin property, leaderboards, display cases, as well as the function of opening cybershops between players to trade fish/fishing gear/bait and similar property, and of course the system store.
-> 4. Different fishing sites can catch different fish at different times (day and night), and it is planned to screen by fish Tags. Fishing location plans can also be uploaded for review.
-> 5. Faraway pie の Ocean adventure
-> 6. Other basic functions...
-
-# Disclaimer (crossed out)
-Noooo! You don't expect me to write all these features quickly! These things are still pretty early!
-...
-
 Last updated on September 20, 2024
