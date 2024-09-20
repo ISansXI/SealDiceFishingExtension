@@ -24,6 +24,21 @@ class Location {
         //WIP
     }
 }
+
+class Bait {
+    //鱼饵
+    constructor() {
+        //WIP
+    }
+}
+
+class FishingGear {
+    //渔具(包括了鱼竿、渔具箱等除了饵料以外的全部钓鱼设备)
+    constructor() {
+        //WIP
+    }
+}
+
 class Fish {
     //鱼
     name: string;
