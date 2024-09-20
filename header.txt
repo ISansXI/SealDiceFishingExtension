@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         模板项目
-// @author       作者名
+// @name         钓鱼大陆
+// @author       地星 AKA Sans
 // @version      1.0.0
-// @description  这是海豹的js扩展模板项目，请自行修改信息
-// @timestamp    1674477074
+// @description  为钓鱼专家(空军佬)们准备!
+// @timestamp    2024-09-20
 // 2023/1/23
 // @license      MIT
-// @homepageURL  https://github.com/sealdice/sealdice-js-template
+// @homepageURL  https://github.com/ISansXI/SealDiceFishingExtension
 // ==/UserScript==

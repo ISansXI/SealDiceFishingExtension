@@ -1,11 +1,33 @@
-import { sample } from "lodash-es";
-import { nameList } from "./utils";
+import "./data";
+import "./utils";
+
+function getData(dataName:string, ext: seal.ExtInfo) {
+
+  /**
+   * 从名为dataName的仓库中提取裸数据
+   * @param dataName 仓库的名字
+   * @return :Map 字典数据
+   */
+
+  return JSON.parse(ext.storageGet(dataName));
+}
+
+function saveData(dataName: string, data:Map<string, object>, ext: seal.ExtInfo) {
+
+  /**
+   * 到名为dataName的仓库中存储data字典数据
+   * @param dataName 仓库的名字
+   * @param data 数据(Map类型)
+   */
+
+  ext.storageSet(dataName, JSON.stringify(data));
+}
 
 function main() {
   // 注册扩展
-  let ext = seal.ext.find('test');
+  let ext = seal.ext.find('sansFishingLand');
   if (!ext) {
-    ext = seal.ext.new('test', '木落', '1.0.0');
+    ext = seal.ext.new('sansFishingLand', '地星 AKA Sans', '1.0.0');
     seal.ext.register(ext);
   }
 
